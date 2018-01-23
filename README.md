@@ -57,6 +57,7 @@ body {
 .par {
 	color:#ccc;
 	margin-top:30px;
+	margin-bottom:30px;
 	margin-left:20%;
 	margin-right:20%;
 	padding:20px;
@@ -70,29 +71,7 @@ body {
 	border-color:#ccc;
 	background:rgba(150,150,150,0.5);
 }
-/* Fake Button */
-#pseudobutton {
-	text-align:center;
-	margin-top:10%;
-	margin-left:30%;
-	margin-right:30%;
-	margin-bottom:10%;
-	padding:20px;
-	background:rgba(230,50,50,0.7);
-	font-family:helvetica;
-	font-size:20pt;
-	color:rgba(190,10,10,1);
-	border-width:5px;
-	border-style:outset;
-	transition-duration:5s;
-}
-#pseudobutton:hover {
-	background:rgba(230,230,50,1);
-	color:rgba(190,190,10,1);
-	border-width:10px;
-	font-size:40pt;
-}
-/* Links */
+/* Link Hider */
 a:link {
 	color:inherit;
 	text-decoration:none;
@@ -108,4 +87,24 @@ a:hover {
 a:active {
 	color:inherit;
 	text-decoration:none;
+}
+/* GitHub Link */
+#here {
+	font-weight:600;
+	color:inherit;
+	text-decoration:none;
+}
+#here:hover {
+	color:#aaa;
+	text-decoration:underline;
+}
+/* HTML/CSS Links */
+.lang {
+	font-weight:600;
+	color:inherit;
+	text-decoration:none;
+}
+.lang:hover {
+	color:#aaa;
+	text-decoration:underline;
 }
